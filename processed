@@ -1,7 +1,0 @@
-<script>start("/Users/grem/Documents/project_ml_sentiment/model_expressionfacial/data/processed/");</script>
-<script>onHasParentDirectory();</script>
-<script>addRow("test","test",1,160,"160 B",1737040824,"16/01/2025 16:20:24");</script>
-<script>addRow("train","train",1,160,"160 B",1737040827,"16/01/2025 16:20:27");</script>
-<script>addRow("val","val",1,160,"160 B",1737040832,"16/01/2025 16:20:32");</script>
-<script>addRow(".DS_Store",".DS_Store",0,6148,"6.0 kB",1737040827,"16/01/2025 16:20:27");</script>
-<script>addRow(".gitkeep",".gitkeep",0,0,"0 B",1735839044,"02/01/2025 18:30:44");</script>

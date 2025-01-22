@@ -1,7 +1,0 @@
-<script>start("/Users/grem/Documents/project_ml_sentiment/model_expressionfacial/reports/");</script>
-<script>onHasParentDirectory();</script>
-<script>addRow("data_fer2013","data_fer2013",1,224,"224 B",1737362180,"20/01/2025 09:36:20");</script>
-<script>addRow("figures_model","figures_model",1,224,"224 B",1736872013,"14/01/2025 17:26:53");</script>
-<script>addRow("note","note",1,192,"192 B",1736496983,"10/01/2025 09:16:23");</script>
-<script>addRow("strucutre_model","strucutre_model",1,96,"96 B",1737380309,"20/01/2025 14:38:29");</script>
-<script>addRow(".DS_Store",".DS_Store",0,6148,"6.0 kB",1737477103,"21/01/2025 17:31:43");</script>

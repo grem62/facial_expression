@@ -1,0 +1,6 @@
+<script>start("/Users/grem/Documents/project_ml_sentiment/model_expressionfacial/src/");</script>
+<script>onHasParentDirectory();</script>
+<script>addRow("data","data",1,192,"192 B",1737531568,"22/01/2025 08:39:28");</script>
+<script>addRow("models","models",1,192,"192 B",1737531327,"22/01/2025 08:35:27");</script>
+<script>addRow("test","test",1,160,"160 B",1737035720,"16/01/2025 14:55:20");</script>
+<script>addRow("visualization","visualization",1,96,"96 B",1736252814,"07/01/2025 13:26:54");</script>

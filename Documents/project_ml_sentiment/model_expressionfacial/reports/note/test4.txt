@@ -1,0 +1,39 @@
+Paramètre utilisé pour le test4
+
+Conv2D(64, (3, 3), padding='same', activation='relu', input_shape=(48, 48, 1)),
+    BatchNormalization(),
+    Conv2D(64, (3, 3), padding='same', activation='relu', kernel_regularizer=l2(0.001)),
+    BatchNormalization(),
+    MaxPooling2D((2, 2)),
+    Dropout(0.3),
+
+    Conv2D(128, (3, 3), padding='same', activation='relu'),
+    BatchNormalization(),
+    Conv2D(128, (3, 3), padding='same', activation='relu', kernel_regularizer=l2(0.001)),
+    BatchNormalization(),
+    MaxPooling2D((2, 2)),
+    Dropout(0.4),
+
+    Conv2D(256, (3, 3), padding='same', activation='relu'),
+    BatchNormalization(),
+    Conv2D(256, (3, 3), padding='same', activation='relu', kernel_regularizer=l2(0.001)),
+    BatchNormalization(),
+    MaxPooling2D((2, 2)),
+    Dropout(0.5),
+
+    Conv2D(512, (3, 3), padding='same', activation='relu'),
+    BatchNormalization(),
+    Conv2D(512, (3, 3), padding='same', activation='relu', kernel_regularizer=l2(0.001)),
+    BatchNormalization(),
+    MaxPooling2D((2, 2)),
+    Dropout(0.5),
+
+    GlobalAveragePooling2D(),
+    Dense(1024, activation='relu', kernel_regularizer=l2(0.001)),
+    Dropout(0.5),
+    Dense(512, activation='relu', kernel_regularizer=l2(0.001)),
+    Dropout(0.5),
+    Dense(7, activation='softmax')
+
+Ajout d'un 4eme bloc pour affiner la courbe de validation en precision et en loss
+

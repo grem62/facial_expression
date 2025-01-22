@@ -1,0 +1,24 @@
+Paramètre utilisé pour le test 1
+
+
+Conv2D(32, (3, 3), activation='relu', input_shape=(48, 48, 1)),
+MaxPooling2D((2, 2)),
+Conv2D(64, (3, 3), activation='relu'),
+MaxPooling2D((2, 2)),
+Flatten(),
+Dense(128, activation='relu'),
+Dense(7, activation='softmax')
+
+10 epoch
+
+
+Overfitting : L'écart entre les courbes 
+d'entraînement et de validation s'élargit légèrement, 
+surtout après quelques époques.Le modèle 
+commence à trop bien mémoriser 
+les données d'entraînement a la place de 
+faire une generalisation.
+
+Sous-apprentissage initial : Les courbes de précision 
+sont encore basses, le modèle a de la marge pour mieux 
+apprendre les caractéristiques des données.

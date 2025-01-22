@@ -1,0 +1,41 @@
+Paramètre utilisé pour le test2
+
+Conv2D(32, (5, 5), activation='relu', input_shape=(48, 48, 1)),
+    BatchNormalization(),
+    MaxPooling2D((2, 2)),
+    
+    Conv2D(64, (5, 5), activation='relu'),
+    BatchNormalization(),
+    MaxPooling2D((2, 2)),
+    
+    Conv2D(128, (3, 3), activation='relu'),
+    BatchNormalization(),
+    MaxPooling2D((2, 2)),
+    
+    Flatten(),
+    Dense(256, activation='relu'),
+    Dropout(0.5),
+    Dense(7, activation='softmax')
+
+Ajout de couches de Batch Normalization.
+Augmentation de la complexité du modèle avec des filtres plus grands et plus de couches.
+Utilisation de Dropout pour la régularisation.
+Ajout de la data augmentation.
+Optimisation avec l'optimiseur Adam et un learning rate réduit.
+Modification du callback d'arrêt anticipé.
+
+20 epoch
+
+Validation Accuracy vs Training Accuracy :
+La courbe de précision de validation semble plus 
+volatile que celle de l'entraînement.
+L'accuracy en validation dépasse parfois celle 
+de l'entraînement, ce qui est un bon signe que 
+le modèle ne surapprend pas encore.
+Par contre l'accuracy reste assez basse pas beaucoup 
+d'augmentation par rapport au premier test1
+
+test loss: 1.2552
+test accuracy: 0.52493
+
+amelioration de 0.0916 en loss et 0.009745 en accuracy

@@ -1,0 +1,44 @@
+Paramètre utilisé pour le test3
+
+
+    Conv2D(64, (3, 3), padding='same', activation='relu', input_shape=(48, 48, 1)),
+    BatchNormalization(),
+    Conv2D(64, (3, 3), padding='same', activation='relu'),
+    BatchNormalization(),
+    MaxPooling2D((2, 2)),
+    Dropout(0.3),
+    
+    Conv2D(128, (3, 3), padding='same', activation='relu'),
+    BatchNormalization(),
+    Conv2D(128, (3, 3), padding='same', activation='relu'),
+    BatchNormalization(),
+    MaxPooling2D((2, 2)),
+    Dropout(0.4),
+
+    Conv2D(256, (3, 3), padding='same', activation='relu'),
+    BatchNormalization(),
+    Conv2D(256, (3, 3), padding='same', activation='relu'),
+    BatchNormalization(),
+    MaxPooling2D((2, 2)),
+    Dropout(0.5),
+    
+    GlobalAveragePooling2D(),
+    Dense(512, activation='relu'),
+    Dropout(0.5),
+    Dense(7, activation='softmax')
+
+
+La précision d'entraînement augmente régulièrement.
+La précision de validation dépasse celle de l'entraînement 
+au début, mais elle oscille après environ 10 époques, 
+ce qui pourrait indiquer un sur-ajustement mineur.
+
+La perte diminue significativement pour les ensembles 
+d'entraînement et de validation au début.
+La perte de validation oscille davantage vers la fin, 
+suggérant également un possible sur-ajustement ou une instabilité.
+
+
+
+Test Loss: 0.9867
+Test Accuracy: 0.6368

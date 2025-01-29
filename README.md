@@ -16,6 +16,8 @@ The FER2013 (Facial Expression Recognition 2013) dataset is a collection of 35,8
 - **Sad**
 - **Surprise**
 
+![FER2013](https://th.bing.com/th/id/OIP.vgk1jEsKSe0qnuDj6RpGkwHaDn?rs=1&pid=ImgDetMain)
+
 ## Model Architecture
 
 We used a convolutional neural network (CNN) to process images and identify facial expressions. The model architecture includes:

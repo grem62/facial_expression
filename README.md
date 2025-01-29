@@ -48,7 +48,7 @@ To run this project on your local machine, follow these steps:
 
 ```bash
 # Clone the repository
-git clone https://github.com/
+git clone git@github.com:grem62/facial_expression.git
 cd portfolio
 
 # Install dependencies

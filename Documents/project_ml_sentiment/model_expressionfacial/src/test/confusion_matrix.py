@@ -12,7 +12,7 @@ model = tf.keras.models.load_model('/Users/grem/Documents/project_ml_sentiment/m
 X_test = np.load('/Users/grem/Documents/project_ml_sentiment/model_expressionfacial/data/processed/test/X_test.npy')
 y_test = np.load('/Users/grem/Documents/project_ml_sentiment/model_expressionfacial/data/processed/test/y_test.npy')
 
-# Make predictions
+# Make predictionsgit
 y_pred = model.predict(X_test)
 y_pred_classes = np.argmax(y_pred, axis=1)
 

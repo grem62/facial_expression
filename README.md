@@ -32,7 +32,7 @@ The model was trained on the FER2013 training set and tested on the validation/t
 - **Test accuracy:** 64%
 - **Confusion matrix:**
 
-![Confusion Matrix](./confusion_matrix.png)
+![Confusion Matrix](Documents/project_ml_sentiment/model_expressionfacial/reports/data_fer2013/matrice_model4.png)
 
 - **Example Predictions:**
 

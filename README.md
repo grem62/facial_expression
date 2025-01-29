@@ -27,6 +27,12 @@ We used a convolutional neural network (CNN) to process images and identify faci
 - Fully connected layers for classification
 - A softmax layer to predict the corresponding emotion
 
+  ## Learning curve
+
+Here is the learning curve showing the evolution of loss during training and validation over time:
+
+![]()
+
 ## Results
 
 The model was trained on the FER2013 training set and tested on the validation/test set. Here are some key results:
@@ -38,11 +44,12 @@ The model was trained on the FER2013 training set and tested on the validation/t
 
 - **Example Predictions:**
 
-| Input Image | Prediction |
-|------------|------------|
-| ![ex1](./sample1.png) | Happy |
-| ![ex2](./sample2.png) | Sad |
-| ![ex3](./sample3.png) | Angry |
+| Preditcion  |
+|------------|
+|<img width="384" alt="Capture d’écran 2025-01-29 à 09 34 13" src="https://github.com/user-attachments/assets/1a935cce-392c-4054-8904-1072b327154e" />
+|<img width="324" alt="Capture d’écran 2025-01-29 à 09 36 54" src="https://github.com/user-attachments/assets/43dfa66f-47ec-4b03-8198-c42e08198075" />
+|<img width="274" alt="Capture d’écran 2025-01-29 à 09 39 30" src="https://github.com/user-attachments/assets/c7cbd243-c268-4e92-9b61-7ccf8711c526" />
+
 
 ## Installation
 

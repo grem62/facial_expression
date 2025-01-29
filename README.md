@@ -31,7 +31,7 @@ We used a convolutional neural network (CNN) to process images and identify faci
 
 Here is the learning curve showing the evolution of loss during training and validation over time:
 
-![]()
+![](Documents/project_ml_sentiment/model_expressionfacial/reports/figures_model/test4.png)
 
 ## Results
 
